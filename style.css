@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    background-image: url(img/7f91cb9d0bbfe972819d807a73de1b2e.jpg);
+}
+
+.side-menu a{
+    display: block;
+    font-size: 20px;
+}
+.top-menu{
+    width: 100%;
+    height: 50px;
+    background-image: url(img/a4156060d0688c387b9c743abb30907c149d980c.jpg);
+    background-position: center;
+    position:fixed;
+    z-index: 2000;
+    text-align: center;
+}
+.top-menu a{
+    margin-left: 20px;
+}
+a{
+    color: green;
+    font-size: 40px;
+}
+a:hover{
+    color: red;
+}
+.NotMenuKontent{
+    padding-top: 60px;
+    padding-left: 200px;
+    height: 90vh;
+}
+.aboutDandD{
+    background-image: url(img/7f91cb9d0bbfe972819d807a73de1b2e.jpg);
+    
+    color: green;
+}
+.AboutOurSite{
+    background-image: url(img/71yTrHHiXpL._SL1500_.jpg);
+    color: blue;
+}
+a:nth-child(1){
+    margin-top: 40vh;
+}
+/*
+.sakit{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.sakit div{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%)
+}*/
